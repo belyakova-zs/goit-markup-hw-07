@@ -1,0 +1,9 @@
+// Шапка сайта
+
+.header-section {
+  display: flex;
+  align-items: center;
+  &__border {
+    border-bottom: 1px solid $border-bottom-line;
+  }
+}

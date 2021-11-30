@@ -1,0 +1,59 @@
+//  Примеры работ
+
+.examples-section {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
+.examples-section {
+  &__title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+  }
+}
+
+.examples-section {
+  &__img {
+    position: relative;
+
+    margin-left: 30px;
+    max-width: calc((100%-60px) / 3);
+  }
+  &__img:nth-last-child(3n) {
+    margin-left: 0;
+  }
+}
+
+.examples-section {
+  &__name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}
+
+.examples-section {
+  &__descript {
+    margin: 0;
+    padding: 27px 82px 27px 82px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $primary-bg-color;
+  }
+}

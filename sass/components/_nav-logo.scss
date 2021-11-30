@@ -1,0 +1,25 @@
+// Логотип
+
+.nav {
+  align-items: center;
+  display: flex;
+}
+
+.nav__logo {
+  color: $accent-color;
+  font-family: $primary-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  transition: color 250ms $cubic;
+  &:hover,
+  &:focus {
+    color: $title-text-color;
+  }
+  &--black-text {
+    color: $logo-first-color;
+  }
+}
