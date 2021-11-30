@@ -3,29 +3,22 @@
 @import "./utils/basic";
 @import "./utils/container";
 @import "./utils/visually-hidden";
-@import "./utils/is-hidden";
 @import "./components/header-section";
 @import "./components/nav-logo";
 @import "./components/site-nav";
 @import "./components/contacts";
 @import "./components/hero";
-// ---------------
 @import "./components/backdrop";
 @import "./components/form";
-// --------------
 @import "./utils/textarea";
 @import "./components/features-section";
 @import "./components/examples-section";
 @import "./components/team-section";
 @import "./components/customers-section";
 @import "./components/footer-section";
-
-// РАЗОБРАТЬСЯ - форма с модалкой
-
-// Для .form__icon {
-//     .form__input:hover + & {
-//        fill: цвет;
-//
+// страница ПОРТФОЛИО
+@import "./components/portfolio-buttons";
+@import "./components/service-section";
 
 // shared \ common
 // имя файла по классу

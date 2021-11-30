@@ -10,13 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-
-    <link rel="stylesheet" href="./bem.css" />
-    <!-- ЗАМЕНИТЬ -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -85,28 +79,44 @@
           <h1 class="visually-hidden">Портфолио</h1>
 
           <!-- Фильтр -->
-
-          <ul class="container-button">
-            <li><button type="button" class="button">Все</button></li>
-            <li><button type="button" class="button">Веб-сайты</button></li>
-            <li><button type="button" class="button">Приложения</button></li>
-            <li><button type="button" class="button">Дизайн</button></li>
-            <li><button type="button" class="button">Маркетинг</button></li>
+          <ul class="portfolio-buttons">
+            <li>
+              <button type="button" class="portfolio-buttons__item">Все</button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-buttons__item">
+                Приложения
+              </button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-buttons__item">
+                Дизайн
+              </button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-buttons__item">
+                Маркетинг
+              </button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-buttons__item">
+                Веб-сайты
+              </button>
+            </li>
           </ul>
 
           <!-- Услуги компании -->
-
-          <ul class="service">
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+          <ul class="service-section">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img
                     src="./images/technokryak.jpg"
                     alt="Технокряк"
                     width="370"
                   />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -115,23 +125,23 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Технокряк</h2>
-                  <p class="service-description">Веб-сайт</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">Технокряк</h2>
+                  <p class="service-section__description">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img
                     src="./images/poster.jpg"
                     alt="Постер New Orlean vs Golden Star"
                     width="370"
                   />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -140,25 +150,25 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">
+                <div class="service-section__border">
+                  <h2 class="service-section__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="service-description">Дизайн</p>
+                  <p class="service-section__description">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img
                     src="./images/seafood.jpg"
                     alt="Ресторан Seafood"
                     width="370"
                   />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -167,24 +177,24 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Ресторан Seafood</h2>
-                  <p class="service-description">Приложение</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">Ресторан Seafood</h2>
+                  <p class="service-section__description">Приложение</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img
                     src="./images/prime.jpg"
                     alt="Проект Prime"
                     width="370"
                   />
 
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -193,23 +203,23 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Проект Prime</h2>
-                  <p class="service-description">Маркетинг</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">Проект Prime</h2>
+                  <p class="service-section__description">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img
                     src="./images/boxes.jpg"
                     alt="Проект Boxes"
                     width="370"
                   />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -218,23 +228,23 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Проект Boxes</h2>
-                  <p class="service-description">Приложение</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">Проект Boxes</h2>
+                  <p class="service-section__description">Приложение</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img
                     src="./images/inspiration.jpg"
                     alt="Inspiration has no Borders"
                     width="370"
                   />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -243,23 +253,25 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Inspiration has no Borders</h2>
-                  <p class="service-description">Веб-сайт</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="service-section__description">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
                 <div class="service-img">
                   <img
                     src="./images/limited.jpg"
                     alt="Издание Limited Edition"
                     width="370"
                   />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -268,19 +280,21 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Издание Limited Edition</h2>
-                  <p class="service-description">Дизайн</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="service-section__description">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img src="./images/lab.jpg" alt="Проект LAB" width="370" />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -289,23 +303,23 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Проект LAB</h2>
-                  <p class="service-description">Маркетинг</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">Проект LAB</h2>
+                  <p class="service-section__description">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="service-main">
-              <a class="text-decoration" href="">
-                <div class="service-img">
+            <li class="service-section__main">
+              <a class="service-section__card" href="">
+                <div class="service-section__img">
                   <img
                     src="./images/business.jpg"
                     alt="Growing Business"
                     width="370"
                   />
-                  <div class="service-text">
-                    <p class="service-text-description">
+                  <div class="service-section__text">
+                    <p class="service-section__text-description">
                       Технокряк это современная площадка распространения
                       коронавируса. Компании используют эту платформу для
                       цифрового шпионажа и атак на защищённые сервера
@@ -314,9 +328,9 @@
                   </div>
                 </div>
 
-                <div class="service-border">
-                  <h2 class="service-title">Growing Business</h2>
-                  <p class="service-description">Приложение</p>
+                <div class="service-section__border">
+                  <h2 class="service-section__title">Growing Business</h2>
+                  <p class="service-section__description">Приложение</p>
                 </div>
               </a>
             </li>
