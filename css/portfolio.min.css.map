@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/profile.scss"
+        "../sass/portfolio.scss"
     ],
     "names": [],
-    "file": "profile.min.css"
+    "file": "portfolio.min.css"
 }
