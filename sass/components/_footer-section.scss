@@ -49,11 +49,9 @@
 .footer-section {
   &__address-location {
     margin: 0 0 9px 0;
-  }
-}
-.footer-section {
-  &__address-location:not(:last-child) {
-    margin-bottom: 9px;
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
   }
 }
 
@@ -62,21 +60,24 @@
     display: block;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-
     transition: color 250ms $cubic;
   }
 }
 
 .footer-section {
-  &__contact:not(:last-child) {
-    margin-bottom: 9px;
+  &__contact {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
   }
 }
 
 .footer-section {
-  &__contact:hover,
-  &__contact:focus {
-    color: $secondary-bg-color;
+  &__contact {
+    &:hover,
+    &:focus {
+      color: $secondary-bg-color;
+    }
   }
 }
 
@@ -106,8 +107,10 @@
 }
 
 .footer-section {
-  &__icons-list:not(:last-child) {
-    margin-right: 10px;
+  &__icons-list {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
 }
 
@@ -126,9 +129,11 @@
 }
 
 .footer-section {
-  &__icons-link:hover,
-  &__icons-link:focus {
-    background-color: $accent-color;
+  &__icons-link {
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+    }
   }
 }
 
@@ -199,9 +204,11 @@
 }
 
 .footer-section {
-  &__form-button:hover,
-  &__form-button:focus {
-    background-color: #188ce8;
+  &__form-button {
+    &:hover,
+    &:focus {
+      background-color: #188ce8;
+    }
   }
 }
 

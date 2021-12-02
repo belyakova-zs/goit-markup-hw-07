@@ -1,8 +1,8 @@
 @import "./utils/variables";
 @import "./base/normolize";
-@import "./utils/basic";
-@import "./utils/container";
-@import "./utils/visually-hidden";
+@import "./base/basic";
+@import "./base/container";
+@import "./base/visually-hidden";
 @import "./components/section";
 @import "./components/header-section";
 @import "./components/nav-logo";
@@ -11,7 +11,7 @@
 @import "./components/hero";
 @import "./components/backdrop";
 @import "./components/form";
-@import "./utils/textarea";
+@import "./components/textarea";
 @import "./components/features-section";
 @import "./components/examples-section";
 @import "./components/team-section";

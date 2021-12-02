@@ -25,9 +25,10 @@
   &__list {
     width: 170px;
     height: 92px;
-  }
-  &__list:not(:last-child) {
-    margin-right: 30px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 }
 
@@ -48,11 +49,11 @@
   }
 }
 
-.customers-section {
-  &__link:hover &__icon {
-    fill: $accent-color;
-  }
-}
+// .customers-section {
+//   &__link:hover &__icon {
+//     fill: $accent-color;
+//   }
+// }
 
 .customers-section {
   &__icon {
